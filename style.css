@@ -1,0 +1,212 @@
+.moon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 450px;
+  height: 200px;
+  border-radius: 50%;
+  background: white;
+  opacity: 0.9;
+  border-radius: 50%;
+  box-shadow: 0 0 20px #fff, -20px 0 80px #f0f, 20px 0 80px #0ff, inset 0 0 50px #fff, inset 50px 0 80px #f0f, inset -50px 0 80px #0ff, inset 50px 0 300px #f0f, inset -50px 0 300px #0ff;
+  animation: pulsate 6s linear infinite;
+  z-index: 1;
+}
+
+@keyframes pulsate {
+  50% {
+    box-shadow: 0 0 20px #fff, 20px 0 80px #f0f, -20px 0 80px #0ff, inset 0 0 50px #fff, inset -50px 0 80px #f0f, inset 50px 0 80px #0ff, inset -50px 0 300px #f0f, inset 50px 0 300px #0ff;
+  }
+}
+.moon1:hover {
+  transform: scale(2);
+}
+
+.moon3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 350px;
+  height: 150px;
+  border-radius: 50%;
+  background: black;
+  opacity: 0.8;
+  box-shadow: 0px 0px 40px 15px black;
+  z-index: 1;
+}
+
+.moon2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: white;
+  opacity: 0.9;
+  box-shadow: 0px 0px 40px 15px white;
+  z-index: 2;
+}
+
+.stars {
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+  z-index: -3;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #000;
+  animation: back 8s infinite;
+}
+@keyframes falling {
+  0%,
+    100% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  0% {
+    transform: translate(100%, 0px);
+  }
+  100% {
+    transform: translate(0px, 100%);
+  }
+}
+.stars [class*="bub"] {
+  background-color: #fff;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  animation: falling 2s infinite;
+}
+.stars .bub1 {
+  position: absolute;
+  left: 53.6101193127%;
+  top: 58.4140398421%;
+  animation-delay: -0.1s;
+}
+.stars .bub2 {
+  position: absolute;
+  left: 61.4977536155%;
+  top: 9.2909251101%;
+  animation-delay: -0.2s;
+}
+.stars .bub3 {
+  position: absolute;
+  left: 49.8477281558%;
+  top: 20.8906109931%;
+  animation-delay: -0.3s;
+}
+.stars .bub4 {
+  position: absolute;
+  left: 49.9718914961%;
+  top: 1.4447220844%;
+  animation-delay: -0.4s;
+}
+.stars .bub5 {
+  position: absolute;
+  left: 15.4457498579%;
+  top: 48.9239354054%;
+  animation-delay: -0.5s;
+}
+.stars .bub6 {
+  position: absolute;
+  left: 25.4355490395%;
+  top: 33.2650254527%;
+  animation-delay: -0.6s;
+}
+.stars .bub7 {
+  position: absolute;
+  left: 51.8349276405%;
+  top: 15.2835060207%;
+  animation-delay: -0.7s;
+}
+.stars .bub8 {
+  position: absolute;
+  left: 66.3239832758%;
+  top: 59.6812168477%;
+  animation-delay: -0.8s;
+}
+.stars .bub9 {
+  position: absolute;
+  left: 42.1630723771%;
+  top: 99.3492799575%;
+  animation-delay: -0.9s;
+}
+.stars .bub10 {
+  position: absolute;
+  left: 41.5966752609%;
+  top: 89.2464291256%;
+  animation-delay: -1s;
+}
+.stars .bub11 {
+  position: absolute;
+  left: 38.5878225902%;
+  top: 84.4390437635%;
+  animation-delay: -1.1s;
+}
+.stars .bub12 {
+  position: absolute;
+  left: 81.6631397406%;
+  top: 19.7038122678%;
+  animation-delay: -1.2s;
+}
+.stars .bub13 {
+  position: absolute;
+  left: 10.5594746626%;
+  top: 10.8771242902%;
+  animation-delay: -1.3s;
+}
+.stars .bub14 {
+  position: absolute;
+  left: 38.1724991111%;
+  top: 35.6351675763%;
+  animation-delay: -1.4s;
+}
+.stars .bub15 {
+  position: absolute;
+  left: 6.0900772849%;
+  top: 79.9375316282%;
+  animation-delay: -1.5s;
+}
+.stars .bub16 {
+  position: absolute;
+  left: 6.2832275278%;
+  top: 40.6479405104%;
+  animation-delay: -1.6s;
+}
+.stars .bub17 {
+  position: absolute;
+  left: 98.8451486882%;
+  top: 88.0489122324%;
+  animation-delay: -1.7s;
+}
+.stars .bub18 {
+  position: absolute;
+  left: 97.9618905455%;
+  top: 78.1836455579%;
+  animation-delay: -1.8s;
+}
+.stars .bub19 {
+  position: absolute;
+  left: 42.5758619832%;
+  top: 65.6319285175%;
+  animation-delay: -1.9s;
+}
+.stars .bub20 {
+  position: absolute;
+  left: 75.135684444%;
+  top: 86.2893240684%;
+  animation-delay: -2s;
+}
